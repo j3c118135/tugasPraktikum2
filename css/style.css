@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+  }
+  
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.heading{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    align-items: center;
+    background-color: #3b7097;
+    padding: 10px 100px;
+    justify-content: space-between;
+}
+
+.header-title{
+    color: #fff;
+}
+
+.tombol{
+    color: white;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    border-color: #76d15d;
+}
+.tambah{
+    background-color: #a9d09e;
+    box-shadow: 0 5px #82a17a;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tambah:hover{
+    color: white;
+    text-decoration: none;
+}
+.tambah:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.edit{
+    background-color: #3196e2;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.edit:hover{
+    background-color: #fff;
+    border: 1px solid  #3196e2;
+    padding: 9px 9px;
+    color:  #3196e2;
+    text-decoration: none;
+
+}
+.view{
+    background-color: #ffc05f;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 5px;
+
+}
+.view:hover{
+    background-color: #fff;
+    border: 1px solid  #ffc05f;
+    padding: 9px 9px;
+    color:  #ffc05f;
+    text-decoration: none;
+
+}
+.hapus{
+    background-color: #ff826c;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+.hapus:hover{
+    background-color: #fff;
+    border: 1px solid  #ff826c;
+    padding: 9px 9px;
+    color:  #ff826c;
+    text-decoration: none;
+
+}
+.content{
+    padding: 10px 100px;
+    margin: 80px 0;
+}
+.content-form{
+    padding: 30px;
+    margin: 100px 100px 0 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+table{
+    margin: 20px auto;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+table tr th { 
+    color: #688a7e;
+    text-align: left;
+}
+
+th,td{
+    padding: 11px 15px;
+}
+
+tbody tr td{
+    padding: 11px 15px;
+    color: #688a7e;
+}
+
+th{
+    border-bottom: 2px solid rgb(192, 192, 192);
+}
+
+td{
+    border-bottom: 1px solid #ddd; 
+}
+
+
+  
